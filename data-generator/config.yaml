@@ -1,1 +1,20 @@
 
+seed: 20261115
+history_start: "2023-04-01"
+history_end: "2026-10-31"
+fiscal_year_start_month: 4
+
+plants:
+  - {code: PUN, name: Pune, country: IN, region: India, currency: INR}
+  - {code: CHE, name: Chennai, country: IN, region: India, currency: INR}
+  - {code: PIT, name: Pithampur, country: IN, region: India, currency: INR}
+  - {code: GER, name: Stuttgart, country: DE, region: EMEA, currency: EUR}
+  - {code: USA, name: Columbus, country: US, region: Americas, currency: USD}
+
+volumes:
+  products: 300
+  customers: 2000
+  suppliers: 120
+  order_lines_per_working_day: 4000
+
+mess_level: 1   # 0 clean, 1 structural, 2 integrity, 3 governance, 4 real-time
